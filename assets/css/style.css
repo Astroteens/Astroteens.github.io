@@ -461,7 +461,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0.75);
   z-index: 9;
 }
 .about .container {
@@ -474,19 +474,17 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 34px;
-  color: white;
+  color: #2f4d5a;
   margin-bottom: 30px;
 }
 .about .content p {
   margin-bottom: 30px;
-  color: white;
-
 }
 .about .content .about-btn {
   display: inline-block;
-  background: linear-gradient(to right, rgb(41, 106, 245), rgb(0, 67, 155));
+  background: #67b0d1;
   padding: 6px 44px 8px 30px;
-  color: rgb(255, 255, 255);
+  color: #fff;
   border-radius: 50px;
   transition: 0.3s;
   position: relative;
@@ -505,18 +503,17 @@ section {
 }
 .about .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #ffffff;
+  color: #67b0d1;
   margin-bottom: 10px;
 }
 .about .icon-boxes .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
-  color: white;
 }
 .about .icon-boxes .icon-box p {
   font-size: 15px;
-  color: #ffffff;
+  color: #848484;
 }
 @media (max-width: 1200px) {
   .about .content {
